@@ -1,0 +1,62 @@
+
+header {
+	text-align: center;
+	display: inline-block;
+	letter-spacing: 0.1em;
+	font-size: 1.6em;
+	font-family: 'Raleway';
+	color: #FB7944;
+	text-decoration: bold;
+	-webkit-font-smoothing: antialiased;
+}
+
+p {
+	color: white;
+	margin-top: -0.7em;
+	font-size: 1.3em;
+	font-family: 'Cabin';
+}
+
+body {
+	background-color: #586474;
+	text-align: center;
+	
+}
+
+#add-items {
+    background-color: transparent;
+   	border: none;
+   	margin-top: .2em;
+ 		color: white;
+    display: inline-block;
+    font-size: 2.6em;
+    text-align: center;
+    width: 12em;
+}
+
+.cross-off {
+    cursor: pointer;
+    margin-top: 5px;
+    float: right;
+    height: 1em;
+    width: 16.6em;
+    background: url('../images/check-mark.jpg');
+   
+    }
+
+.delete {	
+    cursor: pointer;
+    margin-top: 5px;
+    float: left;
+    height: 1em;
+    width: 16em;
+    background: url('../images/x-mark.jpg');
+}
+
+
+
+
+
+
+
+
