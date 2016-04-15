@@ -76,6 +76,8 @@ body {
     width: 50em;
 }
 
+/* Media Styles /*
+
 @media only screen and (max-width: 500px) {
     .fa-times {
         margin-left: -5.5em;
@@ -107,17 +109,9 @@ body {
 
     }
 
-
-
-
-
 @media only screen and (max-width: 500px) {
     header {
         font-size: auto;
 }
-
-
-
-
 
 

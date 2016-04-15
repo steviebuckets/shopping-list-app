@@ -6,10 +6,7 @@ $(document).ready(function() {
     var checkMark = '<span class="fa fa-check"></span>'
     var xMark = '<span class="fa fa-times"></span>'
 
-    /*Gives the user the instructions for this app*/
-    $('#outer-area').prepend('<p class="dashed">Enter each item in the textbox below, then press enter</p>');
-    $('#outer-area').prepend('<p class="dashed">Time to make that grocery list!</p>');
-
+    
     $('#adding').submit(function(event) {
         event.preventDefault()
         postItem();
@@ -49,11 +46,6 @@ $(document).ready(function() {
 
 });
 
-/*Clears all items on list*/
-$(document).on("click", "#startover", function() {
-    $("#list-area").empty();
-    submissions = 0;
-});
 
 /*Allows user to delete items*/
 $(document).on("click", ".fa-times", function() {
