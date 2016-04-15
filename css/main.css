@@ -5,55 +5,113 @@ header {
 	letter-spacing: 0.1em;
 	font-size: 1.6em;
 	font-family: 'Raleway';
-	color: #FB7944;
+	color: #D74F33;
 	text-decoration: bold;
 	-webkit-font-smoothing: antialiased;
 }
 
 p {
-	color: white;
-	margin-top: -0.7em;
+	color: #4B3E4D;
+    display: inline-block;
 	font-size: 1.3em;
 	font-family: 'Cabin';
+    margin: .1em auto;
+    padding: .5em 4em;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+
+    }
+
+p1 {
+    font-family: 'Cabin';
+    text-decoration: bold;
+    color: #C4AC30;
+    font-size: 1.3em;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
-	background-color: #586474;
+	background-color: #F6F6F6;
 	text-align: center;
+    -webkit-font-smoothing: antialiased;
 	
 }
 
 #add-items {
+    padding-top: .8em;
     background-color: transparent;
    	border: none;
    	margin-top: .2em;
- 		color: white;
+ 	color: #4B3E4D;
     display: inline-block;
-    font-size: 2.6em;
+    font-size: 2em;
     text-align: center;
     width: 12em;
+    -webkit-font-smoothing: antialiased;
 }
 
-.cross-off {
-    cursor: pointer;
-    margin-top: 5px;
+.strikethrough{
+    background-color: transparent;
+    text-decoration: line-through !important;
+}
+
+.fa {
+    margin-left: 6em;
+    margin-right: 6em;   
+}
+
+.fa-times {
+    float: left;
+    color: #D74F33;
+    -webkit-font-smoothing: antialiased;
+}
+
+.fa-check {
     float: right;
-    height: 1em;
-    width: 16.6em;
-    background: url('../images/check-mark.jpg');
-   
+    color: #4B3E4D;
+    -webkit-font-smoothing: antialiased;
+}
+
+.full-width {
+    width: 50em;
+}
+
+@media only screen and (max-width: 500px) {
+    .fa-times {
+        margin-left: -3.5em;
+}
+
+@media only screen and (max-width: 500px) {
+    .fa-check {
+        margin-right: 36em;
+}
+
+@media only screen and (max-width: 500px) {
+    p, p1 {
+        text-align: center;
+        font-size: auto;
+}
+
+@media only screen and (max-width: 500px) {
+    .full-width {
+       font-size: auto;
+}
+
+@media only screen and (max-width: 500px) {
+    #add-items {
+        text-align: center;
+        font-size: 1.7em;
+
     }
 
-.delete {	
-    cursor: pointer;
-    margin-top: 5px;
-    float: left;
-    height: 1em;
-    width: 16em;
-    background: url('../images/x-mark.jpg');
+
+
+
+
+@media only screen and (max-width: 500px) {
+    header {
+        font-size: auto;
 }
-
-
 
 
 
